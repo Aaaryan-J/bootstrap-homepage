@@ -1,0 +1,49 @@
+/*<weight>: Use a value from 100 to 900
+<uniquifier>: Use a unique and descriptive class name */
+p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li > a{
+    color:#6fffe9 !important;
+}
+
+li > a:hover {
+    background-color: aqua !important;
+    color: black !important;
+}
+
+.card {
+    background-color: #0b132b;
+    border-radius: 20px !important;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    box-shadow: 0 .5rem 1rem #0b132b !important; /* White with 20% opacity */
+
+}
+.card .icon {
+    color: #6fffe9;
+    font-size: 45px;
+}
+
+.card .card-title {
+    color: #6fffe9;
+
+}
+
+.card .card-text {
+    color: #6fffe9;
+}
+
+.box {
+    width: 300px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
